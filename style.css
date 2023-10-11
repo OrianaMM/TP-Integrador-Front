@@ -1,73 +1,83 @@
-                .pricipal {
-                    height: 20%;
-                }
-                
-                .fondoGris {
-                    background-color: #353a40 !important;
-                }
-                
-                .card-group {
-                    width: fit-content;
-                    height: fit-content;
-                }
-                
-                .contenedorMedio {
-                    display: flex;
-                    justify-content: center;
-                }
-                
-                .img {
-                    float: left;
-                    border-color: aliceblue;
-                    border-width: 2px;
-                    border-style: solid;
-                }
-                
-                .text {
-                    width: 660px;
-                    height: 350px;
-                    background-color: #353a40;
-                    float: left;
-                    text-align: left;
-                    color: white;
-                }
-                
-                .row {
-                    width: 75%;
-                }
-                
-                .contenedor {
-                    position: relative;
-                    display: inline-block;
-                    text-align: center;
-                }
-                
-                .texto-encima {
-                    color: white;
-                    position: absolute;
-                    top: 250px;
-                    text-align-last: right;
-                    width: 500px;
-                    margin-left: 600px;
-                }
-                
-                .centrado {
-                    position: right;
-                    top: 30%;
-                    left: 50%;
-                    transform: translate(-50%, -50%);
-                }
-                
-                .nav-link {
-                    color: gainsboro;
-                }
-                
-                .d-block {
-                    filter: brightness(50%);
-                }
-                
-                .card {
-                    margin-left: 20px;
-                    margin-right: 20px;
-                    border-radius: 5;
-                }
+.pricipal {
+    height: 20%;
+}
+
+.fondoGris {
+    background-color: #353a40 !important;
+}
+
+.card-group {
+    width: fit-content;
+    height: fit-content;
+}
+
+.contenedorMedio {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    float: left;
+    border-color: aliceblue;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.text {
+    width: 660px;
+    height: 350px;
+    background-color: #353a40;
+    float: left;
+    text-align: left;
+    color: white;
+}
+
+.row {
+    width: 75%;
+}
+
+.contenedor {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.texto-encima {
+    color: white;
+    position: absolute;
+    top: 250px;
+    text-align-last: right;
+    width: 500px;
+    margin-left: 600px;
+}
+
+.centrado {
+    position: right;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nav-link {
+    color: gainsboro;
+}
+
+.d-block {
+    filter: brightness(50%);
+}
+
+.card {
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5;
+}
+
+.nav {
+    height: 100px;
+}
+
+.nav-item {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
