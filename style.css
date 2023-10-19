@@ -81,3 +81,36 @@
     margin-left: 20px;
     margin-right: 20px;
 }
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadrado1 {
+    width: 250px;
+    height: 250px;
+    border: 2px solid #1f8bff;
+    margin-right: 5px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cuadrado2 {
+    width: 250px;
+    height: 250px;
+    border: 2px solid #2596be;
+    margin-right: 5px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cuadrado3 {
+    width: 250px;
+    height: 250px;
+    border: 2px solid #f1ce62;
+    margin-right: 5px;
+    text-align: center;
+    margin-top: 30px;
+}
