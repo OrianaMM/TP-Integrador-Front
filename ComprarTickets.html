@@ -79,11 +79,35 @@
         <br>
         <h1 style="text-align: center;">VALOR DEL TICKET $200</h1>
         <form action="">
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <div class="form-check">
+                <div class="row ">
+                    <div class="col ">
+                        <input type="text " class="form-control " placeholder="First name " aria-label="First name ">
+                    </div>
+                    <div class="col ">
+                        <input type="text " class="form-control " placeholder="Last name " aria-label="Last name ">
+                    </div>
+                </div>
+                <br>
+                <div class="form-floating mb-md-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email address</label>
+                </div>
+                <div class="col-md-2 ">
+                    <label for="inputCity " class="form-label ">City</label>
+                    <input type="text " class="form-control " id="inputCity ">
+                </div>
+                <div class="col-md-2 ">
+                    <label for="inputState " class="form-label ">State</label>
+                    <select id="inputState " class="form-select ">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+                </div>
             </div>
         </form>
+
+
 
         <footer style="background-color:#1e5170 ; ">
             <ul class="nav justify-content-center ">
