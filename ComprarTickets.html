@@ -78,36 +78,52 @@
         <p style="text-align: center;">VENTA</p>
         <br>
         <h1 style="text-align: center;">VALOR DEL TICKET $200</h1>
-        <form action="">
-            <div class="form-check">
-                <div class="row ">
-                    <div class="col ">
-                        <input type="text " class="form-control " placeholder="First name " aria-label="First name ">
+        <div class="form">
+            <form action="" class="formulario">
+
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="First name" aria-label="Nombre">
                     </div>
-                    <div class="col ">
-                        <input type="text " class="form-control " placeholder="Last name " aria-label="Last name ">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Last name" aria-label="Apellido">
+                    </div>
+                </div>
+                <div class="mb-md-3">
+                    <label for="formGroupExampleInput" class="form-label"></label>
+                    <input type="email" class="form-control" id="formGroupExampleInput" placeholder="Correo">
+                </div>
+                <div class="input-group">
+                    <div class="col-md-6" style="width: 45%; margin-right: 20px;">
+                        <label for="validationCustom03" class="form-label">Cantidad</label>
+                        <input type="text" class="form-control" id="cantidad" value="0">
+                        <div class="invalid-feedback">
+                            Please provide a valid city.
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="validationCustom04" class="form-label">Categoria</label>
+                        <select class="form-select" id="descuento" required>
+                          <option value="estudiante" id="estudiante">Estudiante</option>
+                          <option id="trainee" value="trainee">Trainee</option>
+                          <option value="junior" id="junior">Junior</option>
+                        </select>
                     </div>
                 </div>
                 <br>
-                <div class="form-floating mb-md-3">
-                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                    <label for="floatingInput">Email address</label>
+                <div class="alert alert-primary" role="alert" id="precio">
+                    Total a pagar: $
                 </div>
-                <div class="col-md-2 ">
-                    <label for="inputCity " class="form-label ">City</label>
-                    <input type="text " class="form-control " id="inputCity ">
+                <div class="" aling="center">
+                    <button type="button" class="btn btn-success col-5" style="margin-right: 63px; margin-left: 2px; background-color: #97c93e;" onclick="tarifaFinal() ">Resumen</button>
+                    <button type="button " class="btn btn-success col-5" style="background-color:#97c93e ;" onclick="borrar() ">Borrar</button>
                 </div>
-                <div class="col-md-2 ">
-                    <label for="inputState " class="form-label ">State</label>
-                    <select id="inputState " class="form-select ">
-                  <option selected>Choose...</option>
-                  <option>...</option>
-                </select>
-                </div>
-            </div>
-        </form>
 
+            </form>
 
+        </div>
+        <br>
+        <br>
 
         <footer style="background-color:#1e5170 ; ">
             <ul class="nav justify-content-center ">
@@ -136,7 +152,8 @@
         </footer>
     </div>
 
-    <script src=" " async defer></script>
+    <script src="scrip.js " async defer>
+    </script>
 </body>
 
 </html>
