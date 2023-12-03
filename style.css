@@ -14,6 +14,11 @@
   .contenedorMedio {
       display: flex;
       justify-content: center;
+      position: relative;
+  }
+  
+  .formulario {
+      width: 45%;
   }
   
   .img {
@@ -24,7 +29,7 @@
   }
   
   .text {
-      width: 660px;
+      width: 50%;
       height: 350px;
       background-color: #353a40;
       float: left;
